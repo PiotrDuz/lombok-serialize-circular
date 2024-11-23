@@ -13,9 +13,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
-@Slf4j
+//@Slf4j
 public class MdGraph2 implements Serializable {
-    //private final Logger log = LoggerFactory.getLogger("graph");
+    private final Logger log = LoggerFactory.getLogger("graph");
     private final Map<MdType2, Map<String, MdNode2>> nodes = new EnumMap<>(MdType2.class);
 
     public MdGraph2() { // for deserialization

@@ -10,9 +10,9 @@ import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
-@Slf4j
+//@Slf4j
 public final class MdNode2 implements Serializable {
-    //private final Logger log = LoggerFactory.getLogger("node");
+    private final Logger log = LoggerFactory.getLogger("node");
 
     private final String id;
     private final MdType2 type;
